@@ -1,0 +1,90 @@
+
+/* Flex Classes */
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.product-name {
+	font-family: "Playfair Display";
+	font-weight: 700;
+	font-size: 48px;
+}
+
+.branding {
+	margin-top: 5em;
+}
+
+.branding * {
+	margin: 0.25em;
+}
+
+.screenshot {
+	max-width: 65%;
+	height: auto;
+	border-radius: 2rem;
+	margin-top: 3rem;
+	/* margin: 0.5em; */
+}
+
+.logo {
+	max-width: 5em;
+	height: 5em;
+	border-radius: 15px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.content * {
+	align-items: center;
+	justify-content: center;
+}
+
+h2 {
+	margin-right: 2rem;
+	margin-left: 2rem;
+	margin-top: 3rem;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: "Helvetica Neue", sans-serif;
+	color: #474747;
+	text-align: center;
+}
+
+/* When the browser is at least 600px and above */
+@media screen and (min-width: 800px) {
+  .screenshot {
+	  max-width: 35%;
+  }
+}
+
+.download {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.download img {
+	width: 10em;
+}
+
+footer {
+	background: black;
+	height: 5em;
+}
+
+h3 {
+	color: white;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: 400;
+	/* font-size: 0.75em; */
+}
