@@ -82,6 +82,13 @@ footer {
 	height: 5em;
 }
 
+.privacy {
+	text-decoration: underline;
+	color: white;
+	font-family: "Helvetica Neue", sans-serif;
+	margin-left: 2em;
+}
+
 h3 {
 	color: white;
 	font-family: "Helvetica Neue", sans-serif;
